@@ -1,0 +1,21 @@
+<?php
+include("./connect.php");
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<TITLE> Book list </TITLE>
+</head>
+<body>
+	<p ALIGN=center> Book list: </p>
+		<!-- method  post OR  get-->
+		<FORM METHOD=get  ACTION="insert.php">
+				Title: <INPUT TYPE="text" NAME="title" >
+			<br>Author: <INPUT TYPE="password" NAME="author" >
+			<br> <INPUT TYPE="submit" VALUE="OK">
+			<INPUT TYPE="reset" VALUE="Reset">
+		</FORM>
+</body>
+</html>
